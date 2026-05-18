@@ -1,0 +1,5 @@
+# Optional: exclude coursework report assets from the repo
+# report/
+
+# macOS
+.DS_Store

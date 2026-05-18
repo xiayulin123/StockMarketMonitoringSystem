@@ -1,0 +1,33 @@
+:root{
+  --bg:#f9fafb;
+  --text:#111827;
+  --card:#ffffff;
+  --border:#e5e7eb;
+  --mutedText:#6b7280;
+  --hover: rgba(0,0,0,0.06);
+  --ring: rgba(0,0,0,0.05);
+  --accent: #3b82f6;
+  --chart-foreground: rgba(17,24,39,.9);
+  --chart-grid: rgba(17,24,39,.15);
+}
+
+html[data-theme="dark"]{
+  --bg:#0b1020;
+  --text:#e5e7eb;
+  --card:#0f172a;
+  --border:#1f2937;
+  --mutedText:#94a3b8;
+  --hover: rgba(255,255,255,0.08);
+  --ring: rgba(255,255,255,0.06);
+  --accent: #60a5fa;
+  --chart-foreground: rgba(255,255,255,.85);
+  --chart-grid: rgba(255,255,255,.12);
+
+}
+
+
+/* 全局应用 */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
