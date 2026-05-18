@@ -2,11 +2,50 @@
 
 Full-stack web application for retail investors: monitor stocks, view technical indicators, run backtests, read market news, and learn finance concepts with an AI tutor. Built as a BSc Computer Science project (University of Hertfordshire, 6COM2018).
 
+## Demo
+
+### Watchlist
+
+Track indices, personal watchlists, and most-traded stocks with live-style quotes and sentiment signals.
+
+![Watchlist](docs/screenshots/watchlist.png)
+
+### Stock details — overview
+
+Price and volume charts with key metrics (range, volume, trend vs 50D, RSI).
+
+![Stock details overview](docs/screenshots/stockDetails.png)
+
+### Stock details — technicals
+
+RSI (14) and MACD charts with summary cards for momentum and volume.
+
+![RSI and MACD](docs/screenshots/RSI.png)
+
+### Events
+
+News and catalysts with sentiment tags, upcoming earnings, and analyst activity.
+
+![Market events](docs/screenshots/Events.png)
+
+### Backtest sandbox
+
+Configure symbol, period, entry signal, and risk focus; view return, drawdown, win rate, and trade count.
+
+![Backtest sandbox](docs/screenshots/backtest.png)
+
+### Learn — AI tutor
+
+Ask finance questions and receive structured educational answers (not investment advice).
+
+![AI learning page](docs/screenshots/AIanswering.png)
+
 ## Repository structure
 
 ```
 StockMarketMonitoringSystem/
-├── README.md                 ← you are here
+├── README.md
+├── docs/screenshots/         ← UI demo images
 ├── Wealth Management App/    ← React + Vite + TypeScript frontend
 └── WealthBackend/            ← FastAPI + Python backend
 ```
@@ -99,11 +138,3 @@ Interactive docs: **http://localhost:8000/docs**
 - Production deployment (frontend + backend)
 - Dedicated **AI agent** for guided stock research workflows
 - **Stock prediction model** (e.g. LSTM / hybrid) exposed via the backend for research signals only
-
-## Author
-
-Manyin Wei — University of Hertfordshire, Department of Computer Science
-
-## License
-
-Academic project. Add a license file if you intend to open-source beyond coursework.
