@@ -1,6 +1,6 @@
 # Stock Market Monitoring System
 
-Full-stack web application for retail investors: monitor stocks, view technical indicators, run backtests, read market news, and learn finance concepts with an AI tutor. Built as a BSc Computer Science project (University of Hertfordshire, 6COM2018).
+Full-stack web application for retail investors to monitor stocks, view technical indicators, run backtests, read market news, and learn finance concepts with an AI tutor.
 
 ## Demo
 
